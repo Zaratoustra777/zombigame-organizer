@@ -1,0 +1,26 @@
+export const WORLD_SIZE = 2560;
+export const CAMERA_WIDTH = 1920;
+export const CAMERA_HEIGHT = 1080;
+
+export const PLAYER = {
+  SIZE: 24,
+  SPEED: 120,
+  MAX_HP: 100,
+  MAX_HUNGER: 100,
+  MAX_THIRST: 100,
+  HUNGER_DRAIN_RATE: 0.5,
+  THIRST_DRAIN_RATE: 0.8,
+  STARVATION_DAMAGE: 5,
+  DEHYDRATION_DAMAGE: 8,
+  KO_DURATION: 60
+};
+
+export const LOOT = {
+  ZOMBIE_LIFETIME: 30,
+  BOSS_LIFETIME: 300,
+  PICKUP_RADIUS: 80
+};
+
+export const DUNGEON = {
+  COOLDOWN: 7200
+};
